@@ -41,3 +41,6 @@ The landing zone design focuses on the following objectives:
 ## Organizational Structure
 
 The architecture uses AWS Organizations to structure accounts into multiple Organizational Units (OUs).
+
+# landing-zone-specialist-portfolio
+>>>>>>> d6686470a2f39da8f91ba7848d59057cb7cfc69f
