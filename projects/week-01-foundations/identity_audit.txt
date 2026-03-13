@@ -1,0 +1,17 @@
+
+## Identity Verification
+
+This document was created to verify the identity being used to authenticate to AWS during this project.
+
+Based on the AWS CLI output, the current authenticated identity is an IAM user rather than the root account or an assumed role. 
+
+USER ARN: arn:aws:iam::654654245415:user/oluthompson
+POLICIES:
+{
+    "AttachedPolicies": [
+        {
+            "PolicyName": "AdministratorAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+        }
+    ]
+}

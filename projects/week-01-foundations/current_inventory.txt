@@ -1,0 +1,12 @@
+Conclusion - The query worked but there was no data to retrieve
+
+
+
+
+
+
+
+## Command I ran -- 
+aws ec2 describe-instances \ --query 'Reservations[*].Instances[*].{ID:InstanceId,Type:InstanceType,State:State.Name}' \
+--output table > current_inventory.txt
+aws ec2 describe-instances --output json
